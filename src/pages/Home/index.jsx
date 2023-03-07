@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate} from 'react-router-dom';
 import { FiPlus, FiSearch } from 'react-icons/fi';
 import { Container, Brand, Menu, Search, Content, NewNote } from './styles';
@@ -8,7 +8,6 @@ import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 import { Section } from '../../components/Section';
 import { ButtonText } from '../../components/ButtonText';
-import { useEffect } from 'react';
 import { api } from '../../services/api';
 
 export function Home() {
@@ -66,7 +65,6 @@ export function Home() {
       </Brand>
 
       <Header>
-
       </Header>
 
       <Menu>

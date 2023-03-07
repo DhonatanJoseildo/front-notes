@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Container, Links, Content } from './styles';
-import { useParams, useNavigate, Await } from "react-router-dom";
+import { useParams, useNavigate} from "react-router-dom";
 
 import { Tag } from '../../components/Tag';
 import { Button } from '../../components/Button';
